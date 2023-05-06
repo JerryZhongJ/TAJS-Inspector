@@ -2,6 +2,7 @@ apply plugin: 'java'
 apply plugin: 'cz.habarta.typescript-generator'
 apply plugin: 'idea'
 
+sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
